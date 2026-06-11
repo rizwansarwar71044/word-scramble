@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Sophisticated deep gradient canvas background -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:color="#212F3D" android:offset="0.0" />
+                <item android:color="#17202A" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle elegant diagonal stripes to give design depth -->
+    <path
+        android:fillColor="#09FFFFFF"
+        android:pathData="M0,20 L20,0 L30,0 L0,30 Z" />
+    <path
+        android:fillColor="#09FFFFFF"
+        android:pathData="M0,50 L50,0 L60,0 L0,60 Z" />
+    <path
+        android:fillColor="#09FFFFFF"
+        android:pathData="M0,80 L80,0 L90,0 L0,90 Z" />
+    <path
+        android:fillColor="#09FFFFFF"
+        android:pathData="M20,108 L108,20 L108,30 L30,108 Z" />
+    <path
+        android:fillColor="#09FFFFFF"
+        android:pathData="M50,108 L108,50 L108,60 L60,108 Z" />
+    <path
+        android:fillColor="#09FFFFFF"
+        android:pathData="M80,108 L108,80 L108,90 L90,108 Z" />
+
+</vector>
