@@ -1,21 +1,21 @@
+# Word Scramble
+
+This is the official GitHub repository for the 'Word Scramble' app.
+
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+<img src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" width="1200" height="475" alt="Word Scramble Banner">
 </div>
 
-# Run and deploy your AI Studio app
+## About the App
 
-This contains everything you need to run your app locally.
+'Word Scramble' is an engaging and mind-stimulating game. In this game, you unscramble words to earn points.
 
-View your app in AI Studio: https://ai.studio/apps/3a04c763-ef28-4422-b966-261a317c43e6
+## Features
 
-## Run Locally
+- Sleek and attractive user interface.
+- Various and challenging levels.
+- Scoreboard to track your personal records.
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+## Installation
 
-
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+You can download this app from the Google Play Store.
