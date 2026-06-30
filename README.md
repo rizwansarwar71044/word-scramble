@@ -2,7 +2,7 @@
 
 Welcome to the official repository for *Word Scramble*, a fun and addictive word puzzle game!
 
-![Word Scramble App Icon](http://googleusercontent.com/image_generation_content/45a8df2d-dce7-440a-9d97-15104bebc63b)
+![Word Scramble App Icon](https://github.com/rizwansarwar71044/word-scramble/blob/main/ChatGPT%20Image%20Jun%2011,%202026,%2010_00_55%20AM.png?raw=true)
 
 ## About the Game
 
