@@ -44,8 +44,8 @@ import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.Email
 import androidx.compose.material.icons.filled.Create
-import androidx.compose.material.icons.filled.ArrowBack
-import androidx.compose.material.icons.filled.ArrowForward
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.OutlinedTextField
@@ -203,7 +203,7 @@ fun WordScreen(
                             }
                         }) {
                             Icon(
-                                imageVector = Icons.Default.ArrowBack,
+                                imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                                 contentDescription = "Go back",
                                 tint = MaterialTheme.colorScheme.onPrimaryContainer
                             )
@@ -881,7 +881,7 @@ fun SuccessLevelCard(
                         .testTag("next_word_button")
                 ) {
                     Icon(
-                        imageVector = if (isAdRequired) Icons.Default.PlayArrow else Icons.Default.ArrowForward,
+                        imageVector = if (isAdRequired) Icons.Default.PlayArrow else Icons.AutoMirrored.Filled.ArrowForward,
                         contentDescription = if (isAdRequired) "Watch ad to continue" else "Continue to next word"
                     )
                     Spacer(modifier = Modifier.width(8.dp))
